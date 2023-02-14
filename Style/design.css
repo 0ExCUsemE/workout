@@ -1,0 +1,111 @@
+
+
+        .navbar,.banner,.card-section,.footer{
+            border: solid black;
+        }
+        .navbar,.footer{
+            background: #264653;
+            height: 15vh;
+        }
+        .banner{
+            background: #2A9D8F;
+            height: 50vh;
+        }
+        .card-section{
+            background: #E9C46A;
+            height: 50vh;
+            display: flex;
+            justify-content: space-evently; /*hoizontally space*/
+            align-items: center; /* vertically space*/
+        }
+        .child{
+            width: 30%;
+            height: 40vh;
+            border: 3px soild black;
+        }
+        .channel{
+            width: 100%;
+            height: 100vh;
+            background: #F4A261;
+            display: flex;
+        }
+        .btngp{
+            width: 20%;
+            border: 1px solid black;
+        }
+        .viewsection{
+            width: 80%;
+            border: 1px solid black;
+        }
+        .btn{
+            width: 50%;
+            height: 5vh;
+            border-radiusr: 100%;
+        }
+        #yd{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .ydbanner{
+            width: 15%;
+            height: 5vh;
+            border-radiusr: 50%;
+        }
+        .image{
+            width: 80%;
+            height: 22vh;
+            border: 1px solid black;
+            text-align: center;
+            margin-left: 50px;
+        }
+        #video{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+        }
+        .video{
+            width: 15%;
+            height: 25vh;
+            border: 1px solid black;
+        }
+        #txt{
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+        }
+        .footer{
+            display: flex;
+            height: 30vh;
+            justify-content: space-around;
+        }
+        .socialmedia,.contact,.map{
+            width: 30%;
+        }
+        #nav ul li{
+            float: left;
+            list-style: none; /* to remove the bullet style */
+            margin: 0 5px; /* top&botton left&right */
+            color: white;
+            font-size: 25px;
+            /* (lowest 0, highest 1) */
+            opacity: 0.3;
+        }
+        /* psuedo element(Element:hover;) */
+        #nav ul li:hover{
+            opacity: 1;
+            cursor: pointer;
+            /* text-shadow: x blur color; */
+            text-shadow: 2px 2px 5px #E9C46A;
+        }
+        body{
+            margin: 0;
+        }
+        #nav{
+            overflow: hidden;
+        }
+        div.banner{
+            /* background: ;*/
+            background-image:url('Flower.jpg') ;
+            background-size: cover;
+        }
